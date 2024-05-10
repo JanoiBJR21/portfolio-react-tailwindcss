@@ -2,7 +2,7 @@
 // import viteLogo from '/vite.svg'
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import fileresume from "./assets/Resume.pdf";
 import {
   faFacebook,
@@ -51,7 +51,7 @@ function App() {
 
           <div className="flex gap-4 text-2xl">
             {" "}
-            Contact
+            Contact Me
             <div className="hover:scale-150 hover:text-primaryTitle transition-all">
               <FontAwesomeIcon icon={faGithub} />
             </div>
@@ -66,6 +66,9 @@ function App() {
             </div>
             <div className="hover:scale-150 hover:text-primaryTitle transition-all">
               <FontAwesomeIcon icon={faLinkedin} />
+            </div>
+            <div className="hover:scale-150 hover:text-primaryTitle transition-all">
+            <FontAwesomeIcon icon={faEnvelope} />
             </div>
           </div>
 
@@ -97,7 +100,7 @@ function App() {
                 class="contact-submit"
                 className="bg-primaryTitle rounded-md py-2 "
               >
-                Submit now
+                SEND
               </button>
             </form>
           </div>
