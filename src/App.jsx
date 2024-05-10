@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 
   return (
-    <div>App</div>
+    <div className='text-red-500 text-xl font-bold'>App</div>
   )
 }
 
