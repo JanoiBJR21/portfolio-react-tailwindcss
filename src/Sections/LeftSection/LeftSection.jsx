@@ -6,8 +6,8 @@ import ContactMe from "./ContactMe/ContactMe";
 const LeftSection = () => {
   return (
     // Left
-    <div>
-      <div className="sticky top-14 grid grid-rows-[35%_35%_30%] h-[64vh]">
+    <div className="px-5">
+      <div className="sticky top-14 grid gap-y-5 lg:grid-rows-[35%_35%_30%] lg:h-[95vh]">
         <Header />
         <Nav />
         <ContactMe />

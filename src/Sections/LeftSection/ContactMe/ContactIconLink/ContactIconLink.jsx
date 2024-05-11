@@ -11,24 +11,36 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ContactIconLink = () => {
   return (
-    <div className="flex gap-4 text-2xl m-2">
+    <div className="flex gap-4 text-2xl">
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
-        <FontAwesomeIcon icon={faGithub} />
+        <a href="">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </div>
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
-        <FontAwesomeIcon icon={faFacebook} />
+        <a href="">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
       </div>
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
-        <FontAwesomeIcon icon={faTwitter} />
+        <a href="">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
       </div>
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
-        <FontAwesomeIcon icon={faInstagram} />
+        <a href="">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
       </div>
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
-        <FontAwesomeIcon icon={faLinkedin} />
+        <a href="">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
       </div>
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
-        <FontAwesomeIcon icon={faEnvelope} />
+        <a href="">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
       </div>
     </div>
   );

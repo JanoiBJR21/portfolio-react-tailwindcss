@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="m-2 mt-4">
+    <div className=" mt-4">
       <form className="flex flex-col gap-2">
         <label className="text-sm">Your Name :</label>
         <input
