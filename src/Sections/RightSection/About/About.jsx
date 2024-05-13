@@ -6,13 +6,12 @@ import Skills from "./Skills/Skills";
 const About = () => {
   return (
     <div>
-      {/* About */}
       <div className="font-semibold">{Data_About.title}</div>
-      <div className="text-sm text-primaryContent pl-4">
+      <div className="text-sm text-primaryContent mt-4">
         {Data_About.description}
-        <Education />
-        <Skills />
       </div>
+      <Education />
+      <Skills />
     </div>
   );
 };

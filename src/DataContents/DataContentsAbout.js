@@ -14,14 +14,14 @@ export const Data_About = {
 };
 
 export const Data_Education = {
-  title: "Education :",
+  title: "Education",
   education: "June 2016 – March 2020 Bachelor's degree",
   university: "Kasem Bundit University",
   faculty: "Faculty of Science and Technology.",
   major: "Major of Computer Science",
 };
 export const Data_Skills = {
-  title: "Skills :",
+  title: "Skills",
   logo_html: logo_html,
   logo_css: logo_css,
   logo_javascript: logo_javascript,

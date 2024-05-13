@@ -3,9 +3,9 @@ import { Data_Skills } from "../../../../DataContents/DataContentsAbout";
 
 const Skills = () => {
   return (
-    <div className="mt-4 font-semibold">
+    <div className="mt-20 font-semibold">
       {Data_Skills.title}
-      <div className="flex flex-wrap mt-2 text-center gap-4 pl-4">
+      <div className="flex flex-wrap mt-3 gap-4">
         <a href="">
           <img
             src={Data_Skills.logo_html}

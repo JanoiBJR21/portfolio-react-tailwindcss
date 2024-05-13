@@ -1,17 +1,20 @@
 import React from "react";
 import About from "./About/About";
+import Experience from "./Experience/Experience";
+import Project from "./Project";
 
 const RightSection = () => {
   return (
     // Right
-    <div className="grid gap-y-4 px-5">
+    <div className="grid gap-y-20 px-5">
       <About/>
-      <div>Experience</div>
+      <Experience/>
+      <Project/>
+      {/* <div>Project</div>
       <div>Project</div>
       <div>Project</div>
       <div>Project</div>
-      <div>Project</div>
-      <div>Project</div>
+      <div>Project</div> */}
     </div>
   );
 };
