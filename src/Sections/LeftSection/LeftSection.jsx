@@ -10,7 +10,7 @@ const LeftSection = () => {
       <div className="sticky top-14 grid gap-y-5 lg:grid-rows-[35%_35%_30%] lg:h-[70vh]">
         <Header />
         <Nav />
-        {/* <ContactMe /> */}
+        <ContactMe />
       </div>
     </div>
   );

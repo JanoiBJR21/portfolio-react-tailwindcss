@@ -9,12 +9,7 @@ const RightSection = () => {
     <div className="grid gap-y-20 px-5">
       <About/>
       <Experience/>
-      <Project/>
-      {/* <div>Project</div>
-      <div>Project</div>
-      <div>Project</div>
-      <div>Project</div>
-      <div>Project</div> */}
+      {/* <Project/> */}
     </div>
   );
 };

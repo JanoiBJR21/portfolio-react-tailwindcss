@@ -11,7 +11,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ContactIconLink = () => {
   return (
-    <div className="flex gap-4 text-2xl">
+    <div className="flex gap-4 text-2xl text-primaryContent">
       <div className="hover:scale-150 hover:text-primaryTitle transition-all">
         <a href="">
           <FontAwesomeIcon icon={faGithub} />
