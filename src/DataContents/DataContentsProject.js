@@ -9,7 +9,7 @@ export const Data_Project = [
         date: "Jan 2024 - May 2024",
         picture: img_workshop1,
         title: "Workshop Project Portfolio React + Tailwind",
-        link: "https://portfolio-tailwind-janoibjr21-janoibjr21s-projects.vercel.app",
+        link: "https://janoibjr21.github.io/portfolio-react-tailwindcss/",
         iconlinks: [
             {type: faGithub, link: "https://github.com/JanoiBJR21/portfolio-react-tailwindcss"},
         ],
