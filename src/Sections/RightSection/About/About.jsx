@@ -5,7 +5,7 @@ import Skills from "./Skills/Skills";
 
 const About = () => {
   return (
-    <div>
+    <div className="px-2">
       <div className="font-semibold">{Data_About.title}</div>
       <div className="text-sm text-primaryContent mt-4">
         {Data_About.description}
