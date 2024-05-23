@@ -6,7 +6,7 @@ import img_workshop4 from "../assets/img_workshop4.png"
 
 export const Data_Project = [
     {
-        date: "Jan 2024 - Feb 2024",
+        date: "Jan 2024 - May 2024",
         picture: img_workshop1,
         title: "Workshop Project Portfolio React + Tailwind",
         link: "https://portfolio-website-responsive-phi.vercel.app/",
