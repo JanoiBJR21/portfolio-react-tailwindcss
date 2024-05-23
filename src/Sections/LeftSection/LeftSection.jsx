@@ -3,13 +3,13 @@ import Header from "./Header/Header";
 import Nav from "./Nav/Nav";
 import ContactMe from "./ContactMe/ContactMe";
 
-const LeftSection = () => {
+const LeftSection = ({navItems, currentSection}) => {
   return (
     // Left
-    <div className="px-5">
-      <div className="sticky top-14 grid gap-y-5 lg:grid-rows-[35%_35%_30%] lg:h-[70vh]">
+    <div className="px-5 mb-14 lg:mb-0">
+      <div className="sticky top-14 px-2 grid gap-y-5 lg:grid-rows-[1fr_2fr_30%] lg:h-[68vh]">
         <Header />
-        <Nav />
+        <Nav navItems={navItems} currentSection={currentSection}/>
         <ContactMe />
       </div>
     </div>

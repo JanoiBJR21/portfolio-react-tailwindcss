@@ -1,14 +1,8 @@
-import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import img_workshop1 from "../assets/img_workshop1.png"
-import img_workshop4 from "../assets/img_workshop4.png"
-import img_workshop2 from "../assets/img_workshop2.png"
 
 export const Data_Experience = [
     {
         date: "Oct 2021 - Nov 2023",
-        picture: img_workshop1,
         title: "Administrative officer litigation work at Yukwiwat Law Company Limited",
-        link: "",
         iconlinks: [
             
         ],
@@ -24,38 +18,6 @@ export const Data_Experience = [
         ],
         techs: [
             ["Microsoft Office", "Email", "Google Chrome"],
-        ],
-    },
-    {
-        date: "Jan 2024 - Feb 2024",
-        picture: img_workshop1,
-        title: "Portfolio React + Tailwind",
-        link: "https://portfolio-website-responsive-phi.vercel.app/",
-        iconlinks: [
-            {type: faGithub, link: "https://github.com/JanoiBJR21/portfolio-react-tailwindcss"},
-        ],
-        descriptions: [
-            "· A simple and minimalist portfolio for developers built with React and TailwindCSS, designed to be clean and fast.",
-        ],
-        techs: [
-            ["HTML", "JavaScript", "Tailwind", "React", "FontAwesome"],
-        ],
-    },
-    {
-        date: "Jan 2024 - Feb 2024",
-        picture: img_workshop4,
-        title: "Workshop Portfolio Website Responsive",
-        link: "https://portfolio-website-responsive-phi.vercel.app/",
-        iconlinks: [
-            {type: faGithub, link: "https://github.com/JanoiBJR21/portfolio-website-responsive"},
-        ],
-        descriptions: [
-            "A responsive portfolio website is one that is designed to look good on any device, whether it be desktop, tablet or mobile. Creating a responsive portfolio website allows you to showcase your work. and your abilities to employers or clients effectively",
-      "On the portfolio website There are details of the work. Includes details about the project, images, and links to existing projects.",
-      "There is a contact form so users can get in touch. This may include other contact channels such as email or social media.",
-        ],
-        techs: [
-            ["HTML", "CSS", "JavaScript", "React", "FontAwesome"],
         ],
     },
 ]
