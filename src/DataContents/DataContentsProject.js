@@ -3,6 +3,7 @@ import img_workshop1 from "../assets/img_workshop1.png"
 import img_workshop2 from "../assets/img_workshop2.png"
 import img_workshop3 from "../assets/img_workshop3.png"
 import img_workshop4 from "../assets/img_workshop4.png"
+import img_workshop5 from "../assets/img_workshop5.png"
 
 export const Data_Project = [
     {
@@ -74,6 +75,24 @@ export const Data_Project = [
         ],
         techs: [
             ["HTML", "CSS", "JavaScript", "React", "API"],
+        ],
+    }
+    {
+        date: "May 2024",
+        picture: img_workshop5,
+        title: "Workshop Project React-Dashboard",
+        link: "https://react-dashboard-ten-green.vercel.app/",
+        iconlinks: [
+            {type: faGithub, link: "https://github.com/JanoiBJR21/Workshop-React-Dashboard"},
+        ],
+        descriptions: [
+            "The Project Shopping Cart API website is part of creating an online application for shopping.",
+            "Add to Cart: Adding products to cart is the process in which users select the products they want to purchase and add them to their cart. This usually involves clicking the “Add to Cart” or similar button on the product page.",
+            "Remove from Cart: Removing products from cart is a process in which the user selects the products that they want to remove from the cart. This usually involves clicking the “Remove” or similar button on the cart page.",
+            "Calculate Total Order: When the user adds or deletes items in the cart. The system must calculate the total amount of all products in the cart. This includes the price of each product. and show the total to the user."
+        ],
+        techs: [
+            ["HTML", "CSS", "JavaScript", "React"],
         ],
     }
 ]
