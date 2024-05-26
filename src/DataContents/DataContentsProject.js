@@ -76,7 +76,7 @@ export const Data_Project = [
         techs: [
             ["HTML", "CSS", "JavaScript", "React", "API"],
         ],
-    }
+    },
     {
         date: "May 2024",
         picture: img_workshop5,
